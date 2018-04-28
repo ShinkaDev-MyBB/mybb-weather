@@ -18,7 +18,10 @@ function get_settings()
 {
     global $lang;
 
-    $lang->load('weather');
+    if (!$lang->weather) {
+        $lang->load('weather');
+    }
+
     return array(
         "weather_api_key" => array(
             "title" => $lang->weather_api_key,

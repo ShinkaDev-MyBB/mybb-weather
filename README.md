@@ -13,3 +13,7 @@ Upload `inc` to the root of your MyBB installation.
 | `{$weather['main']['temp']}`       | Current temperature | 73.5    |
 
 See [OpenWeatherMap API Documentation](https://openweathermap.org/api) for further information.
+
+## Screenshots
+![alt text](https://github.com/ShinkaDev-MyBB/mybb-weather/blob/master/settings.PNG "Settings")
+![alt text](https://github.com/ShinkaDev-MyBB/mybb-weather/blob/master/example.PNG "Example")
